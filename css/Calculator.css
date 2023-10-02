@@ -1,0 +1,52 @@
+:root {
+    --grey: #6B7280;
+    --pink: #EC4899;
+    --purple: #8B5CF6;
+}
+
+body{
+    background-color: black;
+}
+
+.main-body{
+    text-align: center;
+}
+
+.heading{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    background-image: linear-gradient(to right, var(--grey), var(--purple));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.result{
+    color: white;
+    font-size: 45px;
+    font-style: arial;
+    margin: 15px 0px 5px;
+}
+
+.digit-icon{
+    background-color: #333333;
+    color: white;
+    margin-right: 5px;
+    border: none;
+    height: 70px;
+    width: 70px;
+    font-size: 25px;
+    border-radius: 35px;
+}
+
+.operator-icon{
+    background-color: #FEA00A;
+    color: white;
+    margin-right: 5px;
+    border: none;
+    height: 70px;
+    width: 70px;
+    font-size: 25px;
+    border-radius: 35px;
+}
